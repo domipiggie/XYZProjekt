@@ -9,10 +9,9 @@ package xyzprojekt;
  * @author veejuu
  */
 public class XYZProjekt {
-
-    /**
-     * @param args the command line arguments
-     */
+    public static double hengerTerfogat(double sugar, double magassag) {
+        return Math.pow(sugar, 2) * Math.PI * magassag;
+    }
     public static void main(String[] args) {
         // TODO code application logic here
     }
