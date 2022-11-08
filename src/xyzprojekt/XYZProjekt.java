@@ -1,18 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package xyzprojekt;
 
 import java.util.Scanner;
 
-/**
- *
- * @author veejuu
- */
 public class XYZProjekt {
+    
     public static double hengerTerfogat(double sugar, double magassag) {
         return Math.pow(sugar, 2) * Math.PI * magassag;
+    }
+    
+    public static double hengerFelszin(double sugar, double magassag){
+        return 2 * Math.pow(sugar,2) * Math.PI + 2 * sugar * Math.PI * magassag;
     }
     public static void main(String[] args) {
         Scanner bill = new Scanner(System.in);
