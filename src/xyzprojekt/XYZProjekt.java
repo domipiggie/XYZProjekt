@@ -16,11 +16,11 @@ public class XYZProjekt {
         
         System.out.print("Írja be a sugarat: ");
         double sugar = bill.nextDouble();
-        System.out.println("Írja be a magasságot: ");
+        System.out.print("Írja be a magasságot: ");
         double magassag = bill.nextDouble();
         
-        System.out.println(hengerFelszin(sugar, magassag));
-        System.out.println(hengerTerfogat(sugar, magassag));
+        System.out.println("Henger felszíne: " + hengerFelszin(sugar, magassag));
+        System.out.println("Henger magassága: " + hengerTerfogat(sugar, magassag));
     }
     
 }
