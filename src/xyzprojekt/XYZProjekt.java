@@ -4,6 +4,8 @@
  */
 package xyzprojekt;
 
+import java.util.Scanner;
+
 /**
  *
  * @author veejuu
@@ -14,7 +16,15 @@ public class XYZProjekt {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Scanner bill = new Scanner(System.in);
+        
+        System.out.print("Írja be a sugarat: ");
+        double sugar = bill.nextDouble();
+        System.out.println("Írja be a magasságot: ");
+        double magassag = bill.nextDouble();
+        
+        System.out.println(hengerFelszin(sugar, magassag));
+        System.out.println(hengerTerfogat(sugar, magassag));
     }
     
 }
